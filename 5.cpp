@@ -70,6 +70,11 @@ void popTail() {
 
 int main(){
     //soal 1->2->3->4->5 find 3?
+    pushHead(1);
+    pushTail(2);
+    pushTail(3);
+    pushTail(4);
+    pushTail(5);
     int find=3;
     Node *curr;
     int cnt=0;
